@@ -22,7 +22,7 @@ $order_id = "MT" . (string)rand(100000, 999999);
 
     <div class="row">
         <?php echo $form->labelEx($model,'buyer_email_address'); ?>
-        <?php echo $form->textField($model,'buyer_email_address',array('value'=>'ramesh@studioq.co.in')); ?>
+        <?php echo $form->textField($model,'buyer_email_address',array('value'=>'me@domain.com')); ?>
         <?php echo $form->error($model,'buyer_email_address'); ?>
     </div>
 
